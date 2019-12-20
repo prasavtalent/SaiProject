@@ -13,9 +13,14 @@ namespace SaiProject.Controllers
         {
             return View();
         }
-           public ActionResult Home()
+        public ActionResult Home()
         {
             return View();
+        }
+        public ActionResult login(int a,int b)
+        {
+            int c = a + b;
+            return View(c);
         }
     }
 }
