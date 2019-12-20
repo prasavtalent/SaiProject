@@ -17,9 +17,9 @@ namespace SaiProject.Controllers
         {
             return View();
         }
-        public ActionResult login(var a,var b)
+        public ActionResult login(int a,int b)
         {
-            var c = a + b;
+            int c = a + b;
             return View(c);
         }
     }
